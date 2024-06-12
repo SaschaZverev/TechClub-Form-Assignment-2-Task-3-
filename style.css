@@ -1,0 +1,70 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+  }
+  
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f9f9f9;
+  }
+  
+  
+#tech-club-form {
+    max-width: 600px;
+    margin: 40px auto;
+    padding: 20px;
+    background-color: #fff;
+    border: 1px solid #ddd;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+#tech-club-form h2 {
+    margin-top: 0;
+    font-weight: bold;
+    color: #333;
+  }
+  
+#tech-club-form label {
+    display: block;
+    margin-bottom: 10px;
+  }
+  
+#tech-club-form input[type="text"],
+#tech-club-form input[type="email"],
+#tech-club-form input[type="date"],
+#tech-club-form textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+  }
+  
+#tech-club-form input[type="radio"] {
+    margin-right: 10px;
+  }
+  
+#tech-club-form select {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+  }
+  
+#tech-club-form textarea {
+    height: 100px;
+    resize: vertical;
+  }
+  
+#tech-club-form button[type="submit"] {
+    background-color: #4CAF50;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+#tech-club-form button[type="submit"]:hover {
+    background-color: #3e8e41;
+  }

@@ -1,0 +1,51 @@
+<html>
+    <title>TechClub</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+   <link rel="stylesheet" href="style.css">
+
+<form id="tech-club-form">
+    <label for="name">Name:</label>
+    <input type="text" id="name" name="name" required>
+  
+    <label for="email">Email:</label>
+    <input type="email" id="email" name="email" required>
+  
+    <label for="dob">Date of Birth:</label>
+    <input type="date" id="dob" name="dob" required>
+  
+    <label for="about-yourself">Tell us about yourself?</label>
+    <textarea id="about-yourself" name="about-yourself" required></textarea>
+  
+    <label for="achievements">Achievements? If yes, please describe them.</label>
+    <textarea id="achievements" name="achievements" required></textarea>
+  
+    <label for="grade">Grade:</label>
+    <select id="grade" name="grade" required>
+      <option value="">Select</option>
+      <option value="1">1</option>
+      <option value="2">2</option>
+      <option value="3">3</option>
+      <option value="4">4</option>
+      <option value="5">5</option>
+      <option value="6">6</option>
+      <option value="7">7</option>
+      <option value="8">8</option>
+      <option value="9">9</option>
+      <option value="10">10</option>
+      <option value="11">11</option>
+      <option value="12">12</option>
+    </select>
+  
+    <label for="notifications">Would you like to receive notifications?</label>
+    <input type="radio" id="yes" name="notifications" value="yes">
+    <label for="yes">Yes</label>
+    <input type="radio" id="no" name="notifications" value="no">
+    <label for="no">No</label>
+  
+    <button type="submit" id="submit">Submit</button>
+  </form>
+  
+  <script src="main.js">
+  </script>
+  </html>
